@@ -32,7 +32,7 @@ public class Product implements Comparable<Product> {
 
 	}
 
-//------------------------------------------------------------------------------    
+	// ------------------------------------------------------------------------------
 	public int enter() {
 		System.out.println("Nhap id: ");
 		this.id = sc.nextLine();
@@ -62,7 +62,7 @@ public class Product implements Comparable<Product> {
 				this.manufacturingDate, this.unit, this.amount, this.price);
 	}
 
-//--Get-Set---------------------------------------------------------------------
+	// --Get-Set---------------------------------------------------------------------
 	public String getId() {
 		return id;
 	}
@@ -127,7 +127,7 @@ public class Product implements Comparable<Product> {
 		this.price = price;
 	}
 
-// -----Equals------------------------------------
+	// -----Equals------------------------------------
 	public boolean equals(Product other) {
 		if (this == other)
 			return true;
@@ -139,7 +139,13 @@ public class Product implements Comparable<Product> {
 		return Double.compare(this.price, o.price) == 0;
 	}
 
-// -----Compare------------------------------------
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", type=" + type + ", brand=" + brand + ", manufacturingDate="
+				+ manufacturingDate + ", unit=" + unit + ", amount=" + amount + ", price=" + price + ", ";
+	}
+
+	// -----Compare------------------------------------
 	public int compareTo(Product other) {
 		return this.getId().compareTo(other.getId());
 	}

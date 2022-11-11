@@ -32,9 +32,21 @@ public class SmartPhone extends Product {
 		super.title();
 		detail.title();
 	}
+	@Override
+	public String toString() {
+		return super.toString() + detail.toString();
+	}
 
 	public void display() {
 		super.display();
 		detail.display();
+	}
+
+	public Details getDetail() {
+		return detail;
+	}
+
+	public void setDetail(Details detail) {
+		this.detail = detail;
 	}
 }

@@ -104,4 +104,10 @@ public class Details implements Serializable{
 		this.weight = weight;
 	}
 
+	@Override
+	public String toString() {
+		return "graphics=" + graphics + ", cpu=" + cpu + ", sizeMemory=" + sizeMemory + ", color=" + color
+				+ ", sizeScreen=" + sizeScreen + ", weight=" + weight + "]";
+	}
+
 }

@@ -1,0 +1,4 @@
+Product [id=002, name=Dell Inspiron, type=LapTop, brand=Dell, manufacturingDate=12/10/2003, unit=Cai, amount=12, price=12.0, graphics=Nvidia, cpu=Intel, sizeMemory=256gb, color=Trang, sizeScreen=13.3, weight=2.0]
+Product [id=001, name=Dell Inspiron, type=SmartWatch, brand=Dell, manufacturingDate=12/10/2003, unit=Cai, amount=12, price=12.0, graphics=Nvidia, cpu=Intel, sizeMemory=256gb, color=Trang, sizeScreen=13.3, weight=2.0]
+Product [id=004, name=Dell Inspiron, type=SmartPhone, brand=Dell, manufacturingDate=12/10/2003, unit=Cai, amount=12, price=12.0, graphics=Nvidia, cpu=Intel, sizeMemory=256gb, color=Trang, sizeScreen=13.3, weight=2.0]
+Product [id=003, name=Dell Inspiron, type=LapTop, brand=Dell, manufacturingDate=12/10/2003, unit=Cai, amount=12, price=12.0, graphics=Nvidia, cpu=Intel, sizeMemory=256gb, color=Trang, sizeScreen=13.3, weight=2.0]
